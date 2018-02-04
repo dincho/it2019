@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Register</title>
+    </head>
+    <body>
+        <h1>Register</h1>
+        <form>
+            <div>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" placeholder="John Smith"
+                    title="Name should only contain letters and spaces. e.g. John Smith"
+                    pattern="[a-zA-Z ]+" required />
+            </div>
+
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="john@example.org" required />
+            </div>
+
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" id="password" required />
+            </div>
+
+            <div>
+                <label for="repeat_password">Repeat Password:</label>
+                <input type="password" id="repeat_password" required />
+            </div>
+
+            <div>
+                <input type="submit" value="Register" />
+            </div>
+
+            <a href="login.html">Already registered? Login.</a>
+        </form>
+    </body>
+</html>
