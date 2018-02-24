@@ -1,0 +1,122 @@
+/** 
+    Color Scheme: http://paletton.com/#uid=33E0z0kscgBiKpJnhlbyYbDKX6M
+
+    Base styling that should not contain inline-block, float, flex and grid
+**/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #111;
+    font-family: Georgia, serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+nav, h1, h2, h3, h4, h5, h6 {
+    font-family: Verdana, Geneva, sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 1.8em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 0.4em 0;
+}
+
+p {
+    margin: 0 0 1.5em 0;
+}
+
+a {
+    color: #843c10;
+}
+
+a:hover {
+    color: #cd7c55;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+body > header {
+    background: linear-gradient(to right, #3f5d87 0%, #112e57 100%);
+    padding: 20px;
+}
+
+body > header .right {
+    text-align: right;
+}
+
+body > header h1 {
+    color: white;
+    margin-left: 20px;
+}
+
+body > header nav a {
+    padding-left: 10px;
+}
+
+main {
+    padding: 20px 0 20px 20px;
+}
+
+main > article {
+    margin-right: 20px;
+}
+
+aside > section {
+    background-color: #cdb455;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+aside > section + section {
+    border-top: 3px solid #362B00;
+}
+
+section.news article {
+    margin-bottom: 20px;
+}
+
+section.news p {
+    margin-bottom: 0;
+}
+
+section.news footer {
+    text-align: right;
+}
+
+section.banner {
+    text-align: center;
+}
+
+section.banner h4 {
+    text-align: left;
+}
+
+body > footer {
+    background: linear-gradient(to right, #112e57 0%, #3f5d87 100%);
+    color: white;
+    padding: 20px;
+}
+
+body > footer small {
+    display: block;
+    text-align: center;
+}
+
+body > footer nav {
+    padding: 0 20px;
+}
+
+body > footer nav a {
+    display: block;
+    padding-top: 5px;
+}

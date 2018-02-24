@@ -1,0 +1,41 @@
+/* Fixed, centered layout using "inline-block" */
+
+body > header,
+body > main,
+body > footer {
+    margin: 0 auto;
+    width: 1024px;
+}
+
+body > header .left,
+body > header .right {
+    display: inline-block;
+    /* 984 (header) / 2 */
+    width: 490px;
+}
+
+body > header h1 {
+    display: inline-block;
+    vertical-align: top;
+}
+
+body > header nav {
+    display: inline-block;
+    text-align: right;
+}
+
+main > article {
+    display: inline-block;
+    vertical-align: top;
+    width: 660px;
+}
+
+main > aside {
+    display: inline-block;
+    width: 320px;
+}
+
+body > footer nav {
+    display: inline-block;
+    vertical-align: top;
+}
